@@ -1,0 +1,116 @@
+.projects-content{
+    padding-top: 200px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.projects-content .title{
+    margin-bottom: 60px;
+}
+
+.projects-content .title h1{
+    color: white;
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+
+.projects-content .title p{
+    color: #85858e;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.projects-content .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.projects-content .cards .card{
+        padding: 10px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+
+.projects-content .cards .card img{
+    margin-bottom: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 9px solid #27272a;
+}
+
+.projects-content .cards .card .first{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.projects-content .cards .card .second{
+    color: #787881;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.projects-content .cards .card button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+    padding:7px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+
+.projects-content .cards .card:hover button{
+    color: #03a594;
+}
+
+@media (min-width: 800px) {
+    .projects-content .title h1{
+    font-size: 50px;
+    }
+
+    .projects-content .title p{
+    font-size: 18px;
+    }
+
+    .projects-content .cards{
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+    .projects-content .cards .card{
+        width: 45%;
+    }
+}
+
+@media (min-width: 1050px) {
+    .projects-content .title{
+        width: 62%;
+    }
+
+    .projects-content .title h1{
+    font-size: 55px;
+    line-height: 50px;
+    }
+
+    .projects-content .cards .card{
+        width: 29%;
+    }
+}

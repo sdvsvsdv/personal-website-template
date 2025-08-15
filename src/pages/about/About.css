@@ -1,0 +1,118 @@
+.about-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 70px 10px;
+    padding-top: 200px;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.about-content .left h1{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-content .left .p{
+    color: #7b7b85;
+}
+
+.about-content .left .p p{
+    margin-bottom: 15px;
+    line-height: 22px;
+    font-size: 17px;
+}
+
+.about-content .right .image{
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.about-content .right .image img{
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+}
+
+.about-content .right .links .link{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.about-content .right .links .link:hover p{
+    color: #03a594;
+}
+
+.about-content .right .links .link p{
+    color: white;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    cursor: pointer;
+}
+
+.about-content .right .links .link:hover .icons{
+    color: #03a594;
+}
+
+.about-content .right .links .link .icons{
+    color: #7b7b85;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    cursor: pointer;
+}
+
+.about-content .right .links .span{
+    height: 1px;
+    background-color: #26262a;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+@media (min-width: 850px) {
+    .about-content .left h1{
+        font-size: 55px;
+    }
+
+    .about-content .left .p p{
+    font-size: 18.5px;
+}
+}
+
+@media (min-width: 1050px) {
+    .about-content{
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .about-content .right .image{
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+
+}

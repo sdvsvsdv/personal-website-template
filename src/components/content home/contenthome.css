@@ -1,0 +1,217 @@
+.content-home{
+    padding-top:70px ;
+    padding-bottom: 70px;
+}
+
+.content-home .content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content-home .content .content-left .card{
+    padding: 5px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.content-home .content .content-left .card .date{
+    padding: 5px;
+    color: #5a5a60;
+    border-left: 2px solid #5a5a60;
+    margin-bottom: 15px;
+}
+
+.content-home .content .content-left .card .date p{
+    margin-left: 10px;
+}
+
+.content-home .content .content-left .card .title{
+    margin-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.content-home .content .content-left .card .main{
+    margin-bottom: 15px;
+    color: #5a5a60;
+    line-height: 22px;
+    font-size: 17px;
+}
+
+.content-home .content .content-left .card button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #03a594;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.content-home .content .content-right .title{
+    display: flex;
+    gap: 15px;
+    color: #5a5a60;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.content-home .content .content-right .title p{
+    color: white;
+}
+
+.content-home .content .content-right .contact{
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #35353b;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.content-home .content .content-right .contact .p{
+    margin: 10px 5px;
+    color: #5a5a60;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: 17px;
+    
+}
+
+.content-home .content .content-right .contact .input{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 30px;
+}
+
+.content-home .content .content-right .contact .input input{
+    padding: 12px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #1d1d22;
+    border: 1px solid #4d4d56;
+    flex: 1;
+}
+
+.content-home .content .content-right .contact .input button{
+    background-color: #3f3f47;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-home .content .content-right .work {
+    border: 1px solid #35353b;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 20px;
+}
+
+.content-home .content .content-right .work .work-card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.content-home .content .content-right .work .work-card img{
+    border: 8px solid #27272a;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.content-home .content .content-right .work .work-card .card-content .main{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.content-home .content .content-right .work .work-card .card-content{
+    flex: 1;
+}
+
+.content-home .content .content-right .work .work-card .card-content .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #5a5a60;
+}
+
+.content-home .content .content-right .work button{
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #1f1f22;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+@media (min-width: 760px) {
+    .content{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1050px) {
+    .content-home .content{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .content-home .content .content-left,
+    .content-home .content .content-right{
+        flex: 1;
+        width: 50%;
+    }
+}
+
+.content-home .container span{
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #4d4d56;
+    margin-top: 60px;
+}

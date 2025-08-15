@@ -1,0 +1,162 @@
+.uses-content{
+    padding-top: 200px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.uses-content .title{
+    margin-bottom: 60px;
+}
+
+.uses-content .title h1{
+    color: white;
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+
+.uses-content .title p{
+    color: #85858e;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.uses-content .one{
+    margin-bottom: 70px;
+}
+
+.uses-content .cards{
+    margin-bottom: 70px;
+    height: fit-content;
+}
+
+.uses-content .cards .card{
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+.uses-content .cards .card .date{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.uses-content .cards .card .content .first{
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.uses-content .cards .card .content .second{
+    margin-bottom: 15px;
+    color: #898991;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.uses-content .cards .card .content button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: #03a796;
+    font-weight: bold;
+}
+
+@media (min-width: 800px) {
+    .uses-content .title h1{
+    font-size: 50px;
+    }
+
+    .uses-content .title p{
+    font-size: 18px;
+    }
+}
+
+@media (min-width: 1050px) {
+    .uses-content .title{
+        width: 62%;
+    }
+
+    .uses-content .title h1{
+    font-size: 55px;
+    line-height: 50px;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .uses-content .cards{
+        border-left: 1px solid #363639;
+        padding: 20px;
+        width: 110%;
+    }
+
+    .uses-content .cards .card{
+        display: flex;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .uses-content .one .card-2{
+        margin-left: 55px;
+    }
+
+    .uses-content .two .card-2{
+        margin-left: 55px;
+    }
+
+    .uses-content .two .card-3{
+        margin-left: 55px;
+    }
+
+    .uses-content .cards .card .date{
+        margin-right: 40px;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 1050px) {
+    .uses-content .cards .content{
+        width: 52%;
+        margin-left: 0px;
+    }
+
+    .uses-content .title{
+        width: 70%;
+    }
+
+    .uses-content .title h1{
+        font-size: 50px;
+    }
+
+    .uses-content .one .card-2{
+        margin-left: 80px;
+    }
+
+    .uses-content .two .card-2{
+        margin-left: 60px;
+    }
+
+    .uses-content .two .card-3{
+        margin-left: 60px;
+    }
+
+    .uses-content .cards .card .content{
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+    .uses-content .cards .card .date{
+    padding: 15px;
+}
+}

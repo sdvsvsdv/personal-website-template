@@ -1,0 +1,39 @@
+.introhome{
+    padding-top: 200px;
+}
+
+.introhome .main{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.introhome .second{
+    color: #66666d;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.introhome .icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #66666d;
+}
+
+@media (min-width: 800px) {
+    .introhome .main .p-main{
+    width: 700px;
+}
+
+.introhome .second{
+    width: 690px;
+}
+}
+
+@media (min-width: 1000px) {
+    .introhome .main{
+    font-size: 55px;
+}
+}

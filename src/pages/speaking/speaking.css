@@ -1,0 +1,169 @@
+.speaking-content{
+    padding-top: 200px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.speaking-content .title{
+    margin-bottom: 60px;
+}
+
+.speaking-content .title h1{
+    color: white;
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+
+.speaking-content .title p{
+    color: #85858e;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.speaking-content .one{
+    margin-bottom: 70px;
+}
+
+.speaking-content .cards .card{
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+.speaking-content .cards .card .date{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.speaking-content .cards .card .content .type{
+    width: 200px;
+    margin-bottom: 20px;
+    color: #414148;
+    border-left: 2px solid #898991;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.speaking-content .cards .card .type p{
+    margin-left: 15px;
+}
+
+.speaking-content .cards .card .content .first{
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.speaking-content .cards .card .content .second{
+    margin-bottom: 15px;
+    color: #898991;
+    font-weight: 500;
+}
+
+.speaking-content .cards .card .content button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: #03a796;
+    font-weight: bold;
+}
+
+@media (min-width: 800px) {
+    .speaking-content .title h1{
+    font-size: 50px;
+    }
+
+    .speaking-content .title p{
+    font-size: 18px;
+    }
+}
+
+@media (min-width: 1050px) {
+    .speaking-content .title{
+        width: 62%;
+    }
+
+    .speaking-content .title h1{
+    font-size: 55px;
+    line-height: 50px;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .speaking-content .cards{
+        border-left: 1px solid #363639;
+        padding: 20px;
+        width: 110%;
+    }
+
+    .speaking-content .cards .card{
+        display: flex;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .speaking-content .one .card-2{
+        margin-left: 55px;
+    }
+
+    .speaking-content .two .card-2{
+        margin-left: 55px;
+    }
+
+    .speaking-content .two .card-3{
+        margin-left: 55px;
+    }
+
+    .speaking-content .cards .card .date{
+        margin-right: 40px;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 1050px) {
+    .speaking-content .cards .content{
+        width: 52%;
+        margin-left: 0px;
+    }
+
+    .speaking-content .title{
+        width: 70%;
+    }
+
+    .speaking-content .title h1{
+        font-size: 50px;
+    }
+
+    .speaking-content .one .card-2{
+        margin-left: 80px;
+    }
+
+    .speaking-content .two .card-2{
+        margin-left: 60px;
+    }
+
+    .speaking-content .two .card-3{
+        margin-left: 60px;
+    }
+
+    .speaking-content .cards .card .content{
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+    .speaking-content .cards .card .date{
+    padding: 15px;
+}
+}

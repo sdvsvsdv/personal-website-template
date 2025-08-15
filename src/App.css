@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+:root{
+    --secondary-color: #5a5a60;
+    --text-decoration-color: #03a594;
+    --small-titles: #18181b;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    max-width: 1250px;
+    padding: 5px 30px;
+    background-color: #18181b;
+    margin: 0 auto;
+}
+
+.main-container{
+    width: 100%;
+    max-width: 1250px;
+    padding: 5px 30px;
+    background-color: #18181b;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+
+@media (max-width: 780px) {
+    .container{
+        padding: 5px 7px;
+    }
+
+    .main-container{
+        padding: 5px 7px;
+    }
+}
