@@ -1,58 +1,39 @@
-.images{
+.images {
     padding-top: 70px;
     display: flex;
     gap: 50px;
     padding-bottom: 20px;
+    justify-content: center; 
 }
 
-.images img{
-    width: 300px;
-    height: 360px;
+.images img {
+    max-width: 24%;
+    height: 400px;
     border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
     object-fit: cover;
+    display: block;
 }
 
-.images .one{
-    transform: translateX(-200px) rotate(5deg);
-    -webkit-transform: translateX(-200px) rotate(5deg);
-    -moz-transform: translateX(-200px) rotate(5deg);
-    -ms-transform: translateX(-200px) rotate(5deg);
-    -o-transform: translateX(-200px) rotate(5deg);
+.images .one { rotate: 5deg; }
+.images .two { rotate: -5deg; }
+.images .three { rotate: 3deg; }
+.images .four { rotate: 3deg; }
+.images .five { rotate: -7deg; }
+
+
+@media (max-width: 1024px) {
+    .images img {
+        max-width: 45%; 
+        height: 300px;
+    }
 }
 
-.images .two{
-    transform: translateX(-200px) rotate(-5deg);
-    -webkit-transform: translateX(-200px) rotate(-5deg);
-    -moz-transform: translateX(-200px) rotate(-5deg);
-    -ms-transform: translateX(-200px) rotate(-5deg);
-    -o-transform: translateX(-200px) rotate(-5deg);
-}
-
-.images .three{
-    transform: translateX(-200px) rotate(3deg);
-    -webkit-transform: translateX(-200px) rotate(3deg);
-    -moz-transform: translateX(-200px) rotate(3deg);
-    -ms-transform: translateX(-200px) rotate(3deg);
-    -o-transform: translateX(-200px) rotate(3deg);
-}
-
-
-.images .four{
-    transform: translateX(-200px) rotate(3deg);
-    -webkit-transform: translateX(-200px) rotate(3deg);
-    -moz-transform: translateX(-200px) rotate(3deg);
-    -ms-transform: translateX(-200px) rotate(3deg);
-    -o-transform: translateX(-200px) rotate(3deg);
-}
-
-.images .five{
-    transform: translateX(-200px) rotate(-7deg);
-    -webkit-transform: translateX(-200px) rotate(-7deg);
-    -moz-transform: translateX(-200px) rotate(-7deg);
-    -ms-transform: translateX(-200px) rotate(-7deg);
-    -o-transform: translateX(-200px) rotate(-7deg);
+@media (max-width: 768px) {
+    .images img {
+        max-width: 90%; 
+        height: 250px;
+    }
+    .images{
+        overflow: hidden;
+    }
 }

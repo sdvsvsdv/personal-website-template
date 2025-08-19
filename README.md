@@ -14,7 +14,7 @@ Designed for showcasing information, projects, and contact details in a clean an
 ![BackGround](./public/gifs/Animation_3.gif)
 
 ## 🌐 Live Demo
-Check out the live website [here](https://starlit-lokum-4d47d1.netlify.app/)
+Check out the live website [here](https://timely-caramel-babf06.netlify.app/)
 
 
 

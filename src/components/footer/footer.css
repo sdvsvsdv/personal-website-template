@@ -6,7 +6,7 @@
     gap: 30px;
     justify-content: center;
     align-items: center;
-    margin-top: -35px;
+    margin-top: -25px;
     height: 70px;
 }
 
@@ -43,5 +43,12 @@
     .footer-content{
         flex-direction: row;
         justify-content: space-between;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-content{
+        margin-top: 0px;
+        padding-top: 40px;
     }
 }

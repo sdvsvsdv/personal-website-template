@@ -25,6 +25,7 @@ body{
     padding: 5px 30px;
     background-color: #18181b;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .main-container{

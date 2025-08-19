@@ -89,34 +89,14 @@
 .desktop-nav{
     width: 100%;
     margin-top: 10px;
+    margin-left: -110px;
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-start;
     align-items: flex-start;
-    gap: 250px;
     position: fixed;
     top: 0;
-    left: -130px;
     background-color: transparent;
     will-change: transform, height;
-}
-
-.desktop-nav.fixed-nav {
-    transform: translateY(0);
-}
-
-.desktop-nav.scrolled {
-    position: relative;
-    top: 0;
-    left: auto;
-    transform: none;
-    max-width: 1250px;
-    width: 100%;
-    z-index: 1000;
-    background-color: #18181b;
-    border-bottom: 1px solid var(--secondary-color);
-    margin-top: 0;
-    padding: 10px 30px;
-    height: 80px;
 }
 
 .desktop-nav img{
@@ -127,20 +107,12 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    transform: translateY(120px);
-    -webkit-transform: translateY(120px);
-    -moz-transform: translateY(120px);
-    -ms-transform: translateY(120px);
-    -o-transform: translateY(120px);
+    transform: translateY(120px) translateX(-30px);
+    -webkit-transform: translateY(120px) translateX(-30px);
+    -moz-transform: translateY(120px) translateX(-30px);
+    -ms-transform: translateY(120px) translateX(-30px);
+    -o-transform: translateY(120px) translateX(-30px);
     will-change: transform;
-}
-
-.desktop-nav.scrolled img {
-    transform: translate(0px, -100px) scale(0.6);
-    -webkit-transform: translate(0px, -100px) scale(0.6);
-    -moz-transform: translate(0px, -100px) scale(0.6);
-    -ms-transform: translate(0px, -100px) scale(0.6);
-    -o-transform: translate(0px, -100px) scale(0.6);
 }
 
 .desktop-nav button{
@@ -278,7 +250,6 @@
 .fixed-nav {
     position: fixed;
     top: 0;
-    left: -130px;
     width: 100%;
     z-index: 999;
 }
